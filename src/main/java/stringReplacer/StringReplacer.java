@@ -1,3 +1,5 @@
+package stringReplacer;
+
 public class StringReplacer {
 
     String Alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -18,7 +20,7 @@ public class StringReplacer {
              }
 
          }
-        return result;
+        return result.trim();
     }
 
 
