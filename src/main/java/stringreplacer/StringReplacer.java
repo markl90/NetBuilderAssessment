@@ -1,4 +1,4 @@
-package stringReplacer;
+package stringreplacer;
 
 public class StringReplacer {
 

@@ -1,4 +1,4 @@
-package stringReplacer;
+package stringreplacer;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

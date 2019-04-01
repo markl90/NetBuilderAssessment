@@ -1,4 +1,4 @@
-package familyTree;
+package familytree;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -213,7 +213,7 @@ class FamilyTest {
         family.setParent("Vin", "Harry");
         family.setParent("Dwayne", "Harry");
         family.setParent("Matt", "Harry");
-        assertEquals("[Vin, Dwayne, Matt]", family.getChildrenOf("Harry"));
+        assertEquals("[Dwayne, Matt, Vin]", family.getChildrenOf("Harry"));
     }
 
 }

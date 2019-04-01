@@ -1,5 +1,5 @@
-import familyTree.Family;
-import stringReplacer.StringReplacer;
+import familytree.Family;
+import stringreplacer.StringReplacer;
 
 public class Main {
 
