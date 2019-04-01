@@ -17,18 +17,18 @@ class FamilyTest {
     @Test
     public void addMaleTest(){
         family.male("Bob");
-        assertEquals( 1, family.family.size());
-        assertTrue(family.family.get(0).getName().equals("Bob"));
-        assertTrue(family.family.get(0).getGender().equals("male"));
+        assertEquals( 1, family.getFamily().size());
+        assertTrue(family.getFamily().get(0).getName().equals("Bob"));
+        assertTrue(family.getFamily().get(0).getGender().equals("male"));
         assertTrue(family.isMale("Bob"));
     }
 
     @Test
     public void addFemaleTest(){
         family.female("Amy");
-        assertEquals( 1, family.family.size());
-        assertTrue(family.family.get(0).getName().equals("Amy"));
-        assertTrue(family.family.get(0).getGender().equals("female"));
+        assertEquals( 1, family.getFamily().size());
+        assertTrue(family.getFamily().get(0).getName().equals("Amy"));
+        assertTrue(family.getFamily().get(0).getGender().equals("female"));
         assertTrue(family.isFemale("Amy"));
     }
 
@@ -47,7 +47,7 @@ class FamilyTest {
         family.male("Bob");
         family.female("Amy");
         family.setParent("Bob", "Amy");
-        Person bob = family.family.get(0);
+        Person bob = family.getFamily().get(0);
         assertTrue(bob.getParents().get(0).getName().equals("Amy"));
     }
 
@@ -58,7 +58,7 @@ class FamilyTest {
         family.male("Dad2");
         family.setParent("Bob", "Dad");
         assertFalse(family.setParent("Bob", "Dad2"));
-        Person bob = family.family.get(0);
+        Person bob = family.getFamily().get(0);
         assertTrue(bob.getParents().get(0).getName().equals("Dad"));
         assertTrue(bob.getParents().size()==1);
     }
@@ -72,7 +72,7 @@ class FamilyTest {
         family.setParent("Bob", "Dad");
         family.setParent("Bob", "Mum");
         assertFalse(family.setParent("Bob", "Mum2"));
-        Person bob = family.family.get(0);
+        Person bob = family.getFamily().get(0);
         assertTrue(bob.getParents().get(0).getName().equals("Dad"));
         assertTrue(bob.getParents().get(1).getName().equals("Mum"));
         assertTrue(bob.getParents().size()==2);
@@ -82,10 +82,10 @@ class FamilyTest {
     public void firstMentionofNamesInSetParentsMethodAddsPeopleToFamilyTest(){
         family.setParent("Bob", "Dad");
         family.setParent("Bob", "Mum");
-        assertTrue(family.family.size()==3);
-        assertTrue(family.family.get(0).getName().equals("Bob"));
-        assertTrue(family.family.get(1).getName().equals("Dad"));
-        assertTrue(family.family.get(2).getName().equals("Mum"));
+        assertTrue(family.getFamily().size()==3);
+        assertTrue(family.getFamily().get(0).getName().equals("Bob"));
+        assertTrue(family.getFamily().get(1).getName().equals("Dad"));
+        assertTrue(family.getFamily().get(2).getName().equals("Mum"));
     }
 
     @Test
@@ -100,21 +100,21 @@ class FamilyTest {
         family.male("Bob");
         family.male("Bob");
         assertFalse(family.male("Bob"));
-        assertTrue(family.family.size()==1);
+        assertTrue(family.getFamily().size()==1);
     }
 
     @Test
     public void firstMentionOfNameInIsMaleMethodAddsPersonToFamilyTest(){
         family.isMale("Barry");
-        assertTrue(family.family.size()==1);
-        assertTrue(family.family.get(0).getName().equals("Barry"));
+        assertTrue(family.getFamily().size()==1);
+        assertTrue(family.getFamily().get(0).getName().equals("Barry"));
     }
 
     @Test
     public void firstMentionOfNameInIsFemaleMethodAddsPersonToFamilyTest(){
         family.isFemale("Betty");
-        assertTrue(family.family.size()==1);
-        assertTrue(family.family.get(0).getName().equals("Betty"));
+        assertTrue(family.getFamily().size()==1);
+        assertTrue(family.getFamily().get(0).getName().equals("Betty"));
     }
 
     @Test
@@ -173,7 +173,7 @@ class FamilyTest {
     public void queryParentOrChildRelationDoesNotAddRecordToFamily(){
         family.getChildren("Harry");
         family.getParents("Oscar");
-        assertTrue(family.family.isEmpty());
+        assertTrue(family.getFamily().isEmpty());
     }
 
     @Test
@@ -181,7 +181,7 @@ class FamilyTest {
         family.male("John");
         family.setParent("John", "Ben");
         assertFalse(family.setParent("Ben", "John"));
-        assertTrue(family.family.size()==2);
+        assertTrue(family.getFamily().size()==2);
 
     }
 

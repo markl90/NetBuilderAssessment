@@ -40,16 +40,8 @@ public class Person {
         return children;
     }
 
-    public void setChildren(ArrayList<Person> children) {
-        this.children = children;
-    }
-
     public ArrayList<Person> getParents() {
         return parents;
-    }
-
-    public void setParents(ArrayList<Person> parents) {
-        this.parents = parents;
     }
 
     @Override

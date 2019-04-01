@@ -2,9 +2,7 @@ package stringReplacer;
 
 public class StringReplacer {
 
-    String Alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
-
+    private String Alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     public String replaceLetterWithPosition(String input){
         String upperCase = input.toUpperCase();
@@ -22,7 +20,5 @@ public class StringReplacer {
          }
         return result.trim();
     }
-
-
 
 }
