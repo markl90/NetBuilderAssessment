@@ -125,12 +125,13 @@ public class Family {
     }
 
     public String getChildrenOf(String name){
-        String [] parents = new String[find(name).getChildren().size()];
+        String [] children = new String[find(name).getChildren().size()];
         int i = 0;
         for (Person child : find(name).getChildren()){
-            parents[i++] =  child.getName();
+            children[i++] =  child.getName();
         }
-        return Arrays.toString(parents);
+        Arrays.sort(children);
+        return Arrays.toString(children);
     }
 
     public String getParentsOf(String name){
@@ -139,6 +140,7 @@ public class Family {
         for (Person parent : find(name).getParents()){
             parents[i++] =  parent.getName();
         }
+        Arrays.sort(parents);
         return Arrays.toString(parents);
     }
 

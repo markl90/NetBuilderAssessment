@@ -3,18 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="316f8131-7b09-4628-987b-646d73594096" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/familyTree/Family.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/familyTree/Family.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/familyTree/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/familyTree/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stringReplacer/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stringReplacer/StringReplacer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stringReplacer/StringReplacer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/familyTree/FamilyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/familyTree/FamilyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/familyTree/PersonTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/familyTree/Family.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/familyTree/Family.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/familyTree/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/familyTree/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/stringReplacer/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/stringReplacer/StringReplacer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/stringReplacer/StringReplacer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/familyTree/FamilyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/familyTree/FamilyTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/familyTree/PersonTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="366">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,10 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/familyTree/Family.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
+            <state relative-caret-position="-1134">
               <caret line="54" selection-start-line="54" selection-end-line="54" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -256,7 +244,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554110106491" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554113997986" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
@@ -292,7 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.java in NetBuilderAssessment">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="NetBuilderAssessment" />
@@ -499,6 +487,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="DB Browser" order="1" weight="0.32978722" />
@@ -670,9 +659,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/familyTree/Family.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
+        <state relative-caret-position="-1134">
           <caret line="54" selection-start-line="54" selection-end-line="54" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -680,16 +679,6 @@
             <element signature="e#171#172#0" expanded="true" />
             <element signature="e#4805#4806#0" expanded="true" />
             <element signature="e#4834#4835#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
