@@ -2,12 +2,12 @@
 NetBuilder Assessment Tasks
 
 
-#Structure
+# Structure
 - Assignment structured as a maven project.
 - Main folder for Java code.
 - Test folder for Test code.
 
-#Task 1 - Alphabet Position Replacement
+# Task 1 - Alphabet Position Replacement
 - Inside package "stringreplacer"
 - code src/main/java/stringreplacer
 - Tests src/test/java/stringreplacer
@@ -15,7 +15,7 @@ NetBuilder Assessment Tasks
 Code has been written and unit tested to ensure it fulfills the requirements. - 
 A main method has also been added in a class "main" above the package structure in src/main/java.
 
-#Task 2 - Family Tree
+# Task 2 - Family Tree
 - Inside package "familytree"
 - Code src/main/java/familytree
 - Tests src/test/java/familytree
