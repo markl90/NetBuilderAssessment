@@ -12,7 +12,7 @@ NetBuilder Assessment Tasks
 - Code src/main/java/stringreplacer
 - Tests src/test/java/stringreplacer
 
-Code has been written and unit tested to ensure it fulfills the requirements. - 
+Code has been written and unit tested to ensure it fulfills the requirements. \n 
 A main method has also been added in a class "main" above the package structure in src/main/java.
 
 # Task 2 - Family Tree
