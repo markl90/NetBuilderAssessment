@@ -24,7 +24,7 @@ Code has been unit tested to ensure it fulfills the requirements.
 The example family tree structure from the assessment has also been followed with prints to consoles in the main method to show that the functionality matches the results in the assessment example.
 Main method in a class "main" above the package structure in src/main/java.
 
-# Run From Command Line
+## Run From Command Line
 - Clone the project.
 - Open a console and navigate to NetBuilderAssessment/src/main/java
 - Enter javac main.java
