@@ -9,7 +9,7 @@ NetBuilder Assessment Tasks
 
 # Task 1 - Alphabet Position Replacement
 - Inside package "stringreplacer"
-- code src/main/java/stringreplacer
+- Code src/main/java/stringreplacer
 - Tests src/test/java/stringreplacer
 
 Code has been written and unit tested to ensure it fulfills the requirements. - 
